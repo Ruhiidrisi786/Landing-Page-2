@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #fff; */
+    display: flex;
+}
+
+.box1{
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+}
+
+.box2{
+    height: 100vh;
+    width: 60vw;
+    /* background-color: #f34; */
+} 
+
+.up_box{
+    height: 50vh;
+    width: 60vw;
+    background-color: rgb(243, 129, 15);
+    display: flex;
+}
+
+.left_box{
+    height: 50vh;
+    width: 30vw;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675667381451-be2fc08a122e?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.right_box{
+    height: 50vh;
+    width: 30vw;
+    background-image: url(https://images.unsplash.com/photo-1511974212900-b42a18e19eb8?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.down_box{
+    height: 50vh;
+    width: 60vw;position: relative;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664037234905-fef616c63fde?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}   
+
+.nav{
+    padding: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+}
+.nav_right a{
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav_right i{
+    color: royalblue;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.box1 .text_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_center h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.text_center p{
+    font-size: 12px;
+    line-height: 1.5rem;
+    opacity: .7;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.text_center a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: .8;
+}
